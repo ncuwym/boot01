@@ -1,0 +1,23 @@
+user:
+  name: zsan
+  age: 18
+
+#  pet: [cat,dog]   #list
+  pet:
+    - cat
+    - dog
+  score: {english: 60,math: 70}
+
+  animals:
+    sick:
+      - name: mm
+        age: 2
+      - {name: MM,age: 1}
+#-表示一个对象
+#双引号不会改变原来的行为
+person:
+  user:
+    db:
+      driver: 1
+      url: 2
+#单引号会加个\
