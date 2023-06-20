@@ -13,7 +13,7 @@ import org.springframework.stereotype.Component;
 @AllArgsConstructor
 @NoArgsConstructor
 @EqualsAndHashCode
-@ConfigurationProperties(prefix = "datasource")
+@ConfigurationProperties(prefix = "person.user.db")
 @Component
 public class DBConfig {
     private String driver;
